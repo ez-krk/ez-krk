@@ -9,12 +9,15 @@ export const Matrix: FC = () => {
     // The DOM element is accessible here.
     // console.log(ref.current);
     const canvas = ref.current;
-
+    // @ts-ignore 
     const dataUrl = canvas.toDataURL();
     if (dataUrl) () => setCanvasUrl(dataUrl);
 
+    // @ts-ignore 
     const ctx = canvas.getContext("2d");
+    // @ts-ignore 
     const width = (canvas.width = window.innerWidth);
+    // @ts-ignore 
     const height = (canvas.height = window.innerHeight);
     const str =
       "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
