@@ -32,7 +32,7 @@ export const Matrix: FC = () => {
 
     const draw = () => {
       ctx.fillStyle = "rgba(0,0,0,0.05)";
-      ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+      ctx.fillRect(0, 0, width, height);
       ctx.fillStyle = "#14F195";
       ctx.font = `${font}px system-ui`;
       for (let i = 0; i < arr.length; i++) {
