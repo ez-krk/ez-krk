@@ -18,3 +18,20 @@ html, body {
   }
 }   
 
+progress {
+  border-radius: 7px; 
+  width: 80%;
+  height: 22px;
+  margin-left: -11.5%;
+}
+progress::-webkit-progress-bar {
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+ background: linear-gradient(to right, #9945FF, #14F195);
+ border-radius: 7px;
+}
+progress::-moz-progress-bar {
+ background: linear-gradient(to right, #9945FF, #14F195);
+ border-radius: 7px;
+}

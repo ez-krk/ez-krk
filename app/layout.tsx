@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import local from "next/font/local";
 import "./globals.css";
 
-const pixel = local({ src: './assets/fonts/pixel.ttf' });
+const pixel = local({ src: '../assets/fonts/pixel.ttf' });
 
 export const metadata: Metadata = {
   title: "€$¥",
